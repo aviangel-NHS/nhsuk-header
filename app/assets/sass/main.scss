@@ -20,10 +20,8 @@
 }
 
 .nhsuk-header__navigation-link {
-    border-bottom: 0px solid transparent;
+    border-bottom: 4px solid transparent;
 }
-
-
 
 
 //NHS header - my account
@@ -59,3 +57,61 @@
     padding: 1em;
 }
 
+
+.nhsuk-header__logo {
+    float: left;
+}
+
+@media (max-width: 40.0525em) {
+    .nhsuk-header__search-wrap {
+        clear: both;
+        padding-top: 1px;
+    }
+}
+
+// Sideways navigation
+.beta-nhsuk-navigation-sideways__item.is-active {
+    border-left: 4px solid #212b32;
+    color: #212b32;
+    margin-left: -12px;
+    padding-left: 8px;
+  }
+
+  .beta-nhsuk-navigation-sideways__item {
+    padding-bottom: 4px;
+    padding-top: 4px;
+    list-style-type: none;
+  }
+  
+
+  //remove underline active state blue bar
+  .nhsuk-header__navigation-link:active:visited, .nhsuk-header__navigation-link:focus:visited {
+    background-color: #ffeb3b;
+    color: #212b32;
+}
+
+
+// sub hub links
+
+.beta-hub-key-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 1.125em 0;
+}
+
+
+.beta-hub-key-links__list-item, .beta-hub-after-key-links>h2, .beta-hub-bottom-content>h2, h4, .nhsuk-heading-s {
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 1.55556;
+    display: block;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+//related links
+.beta-hub-related-links {
+    list-style-type: none;
+    padding-left: 0;
+}
