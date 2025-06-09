@@ -94,6 +94,7 @@
 // sub hub links
 
 .beta-hub-key-links {
+    font-size: 22px;
     list-style-type: none;
     margin: 0;
     padding: 1.125em 0;
@@ -114,4 +115,26 @@
 .beta-hub-related-links {
     list-style-type: none;
     padding-left: 0;
+}
+
+@media (min-width: 40.0625em) {
+    .beta-hub-key-links__list-item, .beta-hub-after-key-links>h2, .beta-hub-bottom-content>h2, h4, .nhsuk-heading-s {
+        font-size: 22px;
+        font-size: 1.375rem;
+        line-height: 1.45455;
+    }
+}
+
+
+// app store link
+.app-apps-store-link {
+    margin: 8px;
+    margin-left: 0;
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+}
+
+.app-apps-store-link img {
+    width: 100%;
 }
